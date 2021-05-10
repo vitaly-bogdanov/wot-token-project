@@ -1,5 +1,5 @@
 {
-  "name": "wotcoin",
+  "name": "wot-token-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "next": "10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "node-sass": "^6.0.0",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.2.4"
   }
 }
